@@ -1,17 +1,22 @@
 body, #expand-button {
-    background: #d9d9d9;
+    background: #f2f2f2;
 }
 
 h1, h2, h3, h4, h5, body {
-    font-family: Montserrat, Helvetica;
+    font-family: Montserrat, Helvetica .5em;
 }
 
 h4 {
     font-weight: bold;
 }
 
-a:link, a:visited, .button-secondary:hover {
-    color: black;
+a:link, a:visited {
+    color: purple;
+}
+
+.button-secondary:hover{
+    color:red;
+    background: black;
 }
 
 a:hover, .highlight:hover {
@@ -30,13 +35,13 @@ textarea {
     -webkit-appearance: none;
     transition: background-color 0.25s ease-out, color 0.25s ease-out;
     vertical-align: middle;
-    border: 1px solid transparent;
+    border: 1px solid black;
     border-radius: 3px;
-    padding: 0.85em 1em;
-    margin: 0 0 1rem 0;
+    padding: 0.75em .75em;
+    margin: 0 0 .75rem 0;
     font-size: 0.9rem;
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .discipline {
@@ -48,11 +53,11 @@ textarea {
 }
 
 .single-br {
-    padding-bottom: 1em;
+    padding-bottom: .5em;
 }
 
 .brs {
-    padding-bottom: 6em;
+    padding-bottom: 4em;
 }
 
 .harris {
@@ -60,5 +65,9 @@ textarea {
 }
 
 #form {
-    background-color: white;
+    background-color: #f2f2f2;
+}
+
+.hasDatepicker{
+    color: black;
 }
