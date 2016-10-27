@@ -15,7 +15,7 @@ The middleware of the application uses Express.js to provide a REST api for the 
     gulp ($ npm install -g gulp)
  
 ## Setting up the server (Redhat Enterprise Linux 6):
-    $ git clone https://github.com/amaczugowski/node-project-server
+    $ git clone https://github.com/Harris-SpaceInt/HBX-Int
     $ cd node-project-server
     $ chmod +x install.sh
     $ ./install.sh
