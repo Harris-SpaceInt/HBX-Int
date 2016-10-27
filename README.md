@@ -16,7 +16,7 @@ The middleware of the application uses Express.js to provide a REST api for the 
  
 ## Setting up the server (Redhat Enterprise Linux 6):
     $ git clone https://github.com/Harris-SpaceInt/HBX-Int
-    $ cd node-project-server
+    $ cd HBX-Int
     $ chmod +x install.sh
     $ ./install.sh
         > might need to run $ sudo ./install.sh depending on where npm was installed
