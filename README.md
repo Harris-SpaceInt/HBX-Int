@@ -30,7 +30,7 @@ The middleware of the application uses Express.js to provide a REST api for the 
  
 ## Setting up the server to redirect connections to the project website:
     install nginx (http://nginx.org/en/download.html)
-    $ git clone https://github.com/amaczugowski/nginx-project-server
+    $ git clone https://github.com/Harris-SpaceInt/HBX-Int
     $ cd nginx-project-server
     $ sudo cp nginx.conf /etc/nginx
     $ sudo cp sites-available /etc/nginx
