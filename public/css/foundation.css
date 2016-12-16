@@ -1118,6 +1118,7 @@ select {
     background-origin: content-box;
     background-repeat: no-repeat;
     padding-right: 1.5rem;
+    border-color: black;
 }
 
 @media screen and (min-width: 0\0
